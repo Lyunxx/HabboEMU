@@ -1,0 +1,6 @@
+
+Error in thread Room cycle task for room 429: 
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Rooms.RoomUserManager.OnCycle(Int32& idleCount) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUserManager.cs:linha 1469
+   em Plus.HabboHotel.Rooms.Room.ProcessRoom() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\Room.cs:linha 741
+

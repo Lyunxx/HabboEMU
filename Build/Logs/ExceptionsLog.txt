@@ -1,0 +1,83 @@
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 186
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 186
+
+
+Bug during user login: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 186
+
+
+Bug during user login: System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 186
+
+
+Bug during user login: System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 186
+
+
+Bug during user login: System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 186
+
+
+Bug during user login: System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 186
+
+
+Bug during user login: System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 186
+
+
+Bug during user login: System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.GameClients.GameClient.TryLogin(String authTicket) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 186
+
+
+SYSTEM CRITICAL EXCEPTION: System.IO.FileLoadException: N?o foi poss?vel carregar arquivo ou assembly 'MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d' ou uma de suas depend?ncias. A defini??o do manifesto do assembly localizado n?o corresponde ? refer?ncia do assembly. (Exce??o de HRESULT: 0x80131040)
+Nome do arquivo: 'MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d'
+   em Plus.Plus.Initialize()
+   em Plus.Program.InitEnvironment() na c:\Users\Administrator\Desktop\Plus Emulator\Azure\Azure.Emulator\Program.cs:linha 63
+   em Plus.Program.StartEverything() na c:\Users\Administrator\Desktop\Plus Emulator\Azure\Azure.Emulator\Program.cs:linha 84
+   em Plus.Program.Main(String[] args) na c:\Users\Administrator\Desktop\Plus Emulator\Azure\Azure.Emulator\Program.cs:linha 40
+
+AVI: o log de associa??es de assembly est? desativado.
+Para ativar o log de  falhas de assembly, defina o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) como 1.
+Observa??o: h? alguma penalidade para o desempenho associada ao log de falha de associa??o de assembly.
+Para desativar esse recurso, remova o valor do Registro [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+
+SYSTEM CRITICAL EXCEPTION: MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.EndOfStreamException: Tentativa de leitura ultrapassou o fim do fluxo.
+   em MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   em MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   em MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   em MySql.Data.MySqlClient.MySqlConnection.ChangeDatabase(String databaseName)
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em Plus.Database.DatabaseManager.GetQueryReactor()
+   em Plus.HabboHotel.Misc.LowPriorityWorker.Process(Object caller) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\LowPriorityWorker.cs:linha 72
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.TimerQueueTimer.CallCallback()
+   em System.Threading.TimerQueueTimer.Fire()
+   em System.Threading.TimerQueue.FireNextTimers()
+
+
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Rooms.RoomUserManager.OnCycle(Int32& idleCount) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUserManager.cs:linha 1469
+   em Plus.HabboHotel.Rooms.Room.ProcessRoom() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\Room.cs:linha 741
+
+
+
+   em Plus.HabboHotel.Roleplay.Timers.roleplayTimers.HandleTimer(GameClient Session, String Timer, RoomUser RUser) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Roleplay\Timers\roleplayTimers.cs:linha 801
+
+
+
+
+Exception RoomData Loading on (GenerateMaps): System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Rooms.Gamemap.GenerateMaps(Boolean checkLines) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\Gamemap.cs:linha 513
+
+

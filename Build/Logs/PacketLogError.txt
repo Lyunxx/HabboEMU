@@ -1,0 +1,583 @@
+
+Error in packet [3033] [0][7]:unidle[0][0][0][0][0][0][0][3]: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 17064
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][7]:setsh [0][0][0][0][0][0][0]: 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, IFormatProvider provider)
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 8096
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][6]:setsh[0][0][0][0][0][0][0]: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 8096
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A??[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.77\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][4]:at [0][0][0][0][0][0][0]!: 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 9019
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0]:sh bee-anderson 1 [0][0][0][0][0][0][0]: 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 8254
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0][11]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0][12]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][10]:hit Gta-V[0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][10]:hit Gta-V[0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]!: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]": 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]&: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][1]x[0][0][0][0][0][0][0]*: 
+System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+Parameter name: minValue
+   at System.Random.Next(Int32 minValue, Int32 maxValue)
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.CalculateDamage(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 234
+   at Plus.HabboHotel.Roleplay.Combat.MeleeCombat.ExecuteAttack(GameClient Session, GameClient TargetSession) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Roleplay\Combat\MeleeCombat.cs:line 241
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 12702
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 969
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A?O[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A?O[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A?I[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [313] [1]A?J[0][0][0][0]: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 288
+   at Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:line 76
+   at Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Items.cs:line 619
+   at Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1376
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in c:\Users\JayMa_000\Desktop\FluxEMU1.78\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][7]:sh 2 1[0][0][0][0][0][0][0][0]: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:line 8254
+   at Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:line 1001
+   at Plus.Messages.Handlers.GameClientMessageHandler.Chat() in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Rooms.cs:line 2559
+   at Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 143
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [2695] [0][0][0][3][0][0][0][0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plus.HabboHotel.Groups.GroupManager.SerializeGroupMembers(ServerMessage response, Guild group, UInt32 reqType, GameClient session, String searchVal, Int32 page) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Groups\GroupManager.cs:line 241
+   at Plus.Messages.Handlers.GameClientMessageHandler.SerializeGroupMembers() in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Groups.cs:line 191
+   at Plus.Messages.Parsers.PacketLibrary.SerializeGroupMembers(GameClientMessageHandler handler) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1997
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [2695] [0][0][0][3][0][0][0][0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plus.HabboHotel.Groups.GroupManager.SerializeGroupMembers(ServerMessage response, Guild group, UInt32 reqType, GameClient session, String searchVal, Int32 page) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Groups\GroupManager.cs:line 241
+   at Plus.Messages.Handlers.GameClientMessageHandler.SerializeGroupMembers() in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Groups.cs:line 191
+   at Plus.Messages.Parsers.PacketLibrary.SerializeGroupMembers(GameClientMessageHandler handler) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1997
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [2695] [0][0][0][3][0][0][0][0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plus.HabboHotel.Groups.GroupManager.SerializeGroupMembers(ServerMessage response, Guild group, UInt32 reqType, GameClient session, String searchVal, Int32 page) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Groups\GroupManager.cs:line 241
+   at Plus.Messages.Handlers.GameClientMessageHandler.SerializeGroupMembers() in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Groups.cs:line 191
+   at Plus.Messages.Parsers.PacketLibrary.SerializeGroupMembers(GameClientMessageHandler handler) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1997
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [2695] [0][0][0][3][0][0][0][0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plus.HabboHotel.Groups.GroupManager.SerializeGroupMembers(ServerMessage response, Guild group, UInt32 reqType, GameClient session, String searchVal, Int32 page) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Groups\GroupManager.cs:line 241
+   at Plus.Messages.Handlers.GameClientMessageHandler.SerializeGroupMembers() in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Groups.cs:line 191
+   at Plus.Messages.Parsers.PacketLibrary.SerializeGroupMembers(GameClientMessageHandler handler) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:line 1997
+   at Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:line 68
+   at Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:line 92
+   at Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) in C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:line 576
+
+
+Error in packet [3033] [0][10]:superhire[0][0][0][0][0][0][0][8]: 
+System.IndexOutOfRangeException: O ?ndice estava fora dos limites da matriz.
+   em Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:linha 8234
+   em Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:linha 1001
+   em Plus.Messages.Handlers.GameClientMessageHandler.Chat() na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Rooms.cs:linha 2559
+   em Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 143
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [2695] [0][0][0][3][0][0][0][0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: O ?ndice estava fora do intervalo. Ele deve ser n?o-negativo e menor que o tamanho da cole??o.
+Nome do par?metro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   em System.Collections.Generic.List`1.get_Item(Int32 index)
+   em Plus.HabboHotel.Groups.GroupManager.SerializeGroupMembers(ServerMessage response, Guild group, UInt32 reqType, GameClient session, String searchVal, Int32 page) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\Groups\GroupManager.cs:linha 241
+   em Plus.Messages.Handlers.GameClientMessageHandler.SerializeGroupMembers() na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Groups.cs:linha 191
+   em Plus.Messages.Parsers.PacketLibrary.SerializeGroupMembers(GameClientMessageHandler handler) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 1997
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\Hender\Documents\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [313] [1]Cg?[0][0][0][0]: 
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 288
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 76
+   em Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Items.cs:linha 619
+   em Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 1376
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [313] [1]Cg?[0][0][0][0]: 
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 288
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 76
+   em Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Items.cs:linha 619
+   em Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 1376
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [3033] [0][8]:gcreate[0][0][0][0][0][0][0]A: 
+System.IndexOutOfRangeException: O ?ndice estava fora dos limites da matriz.
+   em Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:linha 11197
+   em Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:linha 1001
+   em Plus.Messages.Handlers.GameClientMessageHandler.Chat() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Rooms.cs:linha 2559
+   em Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 143
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [313] [1]Cf?[0][0][0][0]: 
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 288
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 76
+   em Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Items.cs:linha 619
+   em Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 1376
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [313] [1]Cf?[0][0][0][0]: 
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.handleFarmingSpot(GameClient Session, RoomItem Item) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 288
+   em Plus.HabboHotel.Items.Interactor.InteractorRP.OnTrigger(GameClient Session, RoomItem Item, Int32 Request, Boolean HasRights) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Items\Interactor\InteractorRP.cs:linha 76
+   em Plus.Messages.Handlers.GameClientMessageHandler.TriggerItem() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Items.cs:linha 619
+   em Plus.Messages.Parsers.PacketLibrary.TriggerItem(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 1376
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [3033] [0][11]:spaceminer[0][0][0][0][0][0][0].: 
+System.IndexOutOfRangeException: O ?ndice estava fora dos limites da matriz.
+   em Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:linha 8300
+   em Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:linha 1001
+   em Plus.Messages.Handlers.GameClientMessageHandler.Chat() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Rooms.cs:linha 2559
+   em Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 143
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [3033] [0]:spaceminer x[0][0][0][0][0][0][0]/: 
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:linha 8305
+   em Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:linha 1001
+   em Plus.Messages.Handlers.GameClientMessageHandler.Chat() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Rooms.cs:linha 2559
+   em Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 143
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [1866] [0][0][0][1][0]teste ashassahhas: 
+System.ArgumentOutOfRangeException: O ?ndice estava fora do intervalo. Ele deve ser n?o-negativo e menor que o tamanho da cole??o.
+Nome do par?metro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   em System.Collections.Generic.List`1.get_Item(Int32 index)
+   em Plus.HabboHotel.Guides.GuideManager.GetRandomGuide() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Users\Helpers\GuideManager.cs:linha 83
+   em Plus.Messages.Handlers.GameClientMessageHandler.CallGuide() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Guides.cs:linha 39
+   em Plus.Messages.Parsers.PacketLibrary.GuideMessage(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 53
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [2695] [0][0][0][2][0][0][0][0][0][0][0][0][0][0]: 
+System.ArgumentOutOfRangeException: O ?ndice estava fora do intervalo. Ele deve ser n?o-negativo e menor que o tamanho da cole??o.
+Nome do par?metro: index
+   em System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   em System.Collections.Generic.List`1.get_Item(Int32 index)
+   em Plus.HabboHotel.Groups.GroupManager.SerializeGroupMembers(ServerMessage response, Guild group, UInt32 reqType, GameClient session, String searchVal, Int32 page) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Groups\GroupManager.cs:linha 241
+   em Plus.Messages.Handlers.GameClientMessageHandler.SerializeGroupMembers() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Groups.cs:linha 191
+   em Plus.Messages.Parsers.PacketLibrary.SerializeGroupMembers(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 1997
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [3033] [0]:equip police[0][0][0][0][0][0][0][2]: 
+System.Collections.Generic.KeyNotFoundException: A chave fornecida n?o estava presente no dicion?rio.
+   em System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   em Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:linha 12984
+   em Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:linha 1001
+   em Plus.Messages.Handlers.GameClientMessageHandler.Chat() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Rooms.cs:linha 2559
+   em Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 143
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
+
+Error in packet [3033] [0][9]:taxi 133[0][0][0][0][0][0][0]: 
+System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?ncia de um objeto.
+   em Plus.HabboHotel.Rooms.RoomManager.LoadRoom(UInt32 id) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomManager.cs:linha 285
+   em Plus.HabboHotel.Roleplay.Misc.RoleplayManager.GenerateRoom(UInt32 RoomId) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Roleplay\Misc\RoleplayManager.cs:linha 637
+   em Plus.HabboHotel.Misc.ChatCommandHandler.Parse(GameClient Session, String Input) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Misc\ChatCommandHandler.cs:linha 1369
+   em Plus.HabboHotel.Rooms.RoomUser.Chat(GameClient session, String msg, Boolean shout, Int32 count, Int32 textColor) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUser.cs:linha 1001
+   em Plus.Messages.Handlers.GameClientMessageHandler.Chat() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Rooms.cs:linha 2559
+   em Plus.Messages.Parsers.PacketLibrary.Chat(GameClientMessageHandler handler) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\PacketLibrary.cs:linha 143
+   em Plus.Messages.Parsers.LibraryParser.HandlePacket(GameClientMessageHandler handler, ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Parsers\LibraryParser.cs:linha 68
+   em Plus.Messages.Handlers.GameClientMessageHandler.HandleRequest(ClientMessage request) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\Messages\Handlers\Others.cs:linha 92
+   em Plus.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientMessage message) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\GameClients\GameClient.cs:linha 576
+
