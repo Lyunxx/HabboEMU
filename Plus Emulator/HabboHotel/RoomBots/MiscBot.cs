@@ -154,7 +154,7 @@ namespace Plus.HabboHotel.RoomBots
 
         internal override void OnUserSay(Rooms.RoomUser User, string Message)
         {
-            string[] special = { "order pancakes", "order steak", "order chips", "order eggs", "order spaghetti", "order milkshakes" };
+            string[] special = { "pedir panquecas", "pedir bife", "pedir batata", "pedir ovos", "pedir spaghetti", "pedir milkshakes" };
             bool SpecialMsg = false;
             string specialMsg = "";
 
@@ -390,11 +390,11 @@ namespace Plus.HabboHotel.RoomBots
                             }
                             if (User.GetClient().GetRoleplay().MultiCoolDown["order_cooldown"] > 0)
                             {
-                                User.GetClient().SendWhisper("You recently ordered something, please wait a while to order again!");
+                                User.GetClient().SendWhisper("Você recentemente pediu algo, por favor, aguarde um pouco para encomendar novamente!");
                                 return;
                             }
 
-                            if (specialMsg.Contains("order"))
+                            if (specialMsg.Contains("pedir"))
                             {
 
                                 if (OriginalPosition == null)
@@ -416,17 +416,17 @@ namespace Plus.HabboHotel.RoomBots
 
                                 if (event_serving_plate == null)
                                 {
-                                    User.GetClient().SendWhisper("You need to sit near an empty plate!");
+                                    User.GetClient().SendWhisper("Você precisa se sentar perto de um prato vazio!");
                                     return;
                                 }
 
                                 if (User.GetClient().GetRoleplay().Hunger <= 0)
                                 {
-                                    User.GetClient().SendWhisper("Looks like you're already full, you don't need anymore food!");
+                                    User.GetClient().SendWhisper("Parece que você já está cheio, você não precisa mais de comida!");
                                     return;
                                 }
 
-                                GetRoomUser().Chat(null, "Hello " + serving.GetHabbo().UserName + ", one serving of " + food + " coming up!", true, 0);
+                                GetRoomUser().Chat(null, "Olá " + serving.GetHabbo().UserName + ", uma porção de " + food + " chegando!", true, 0);
 
 
                                 event_serving_orderPlaced = true;
@@ -441,7 +441,7 @@ namespace Plus.HabboHotel.RoomBots
                     {
                         if (SpecialMsg)
                         {
-                            User.GetClient().SendWhisper("Someone is currently ordering, please wait your turn!");
+                            User.GetClient().SendWhisper("Alguém está fazendo o pedido, por favor, aguarde a sua vez!");
 
                             #region Delete Serve Session
                             if (serving == null)
@@ -636,7 +636,7 @@ namespace Plus.HabboHotel.RoomBots
 
                         if (base.GetBotData().TimesTried >= 20)
                         {
-                            base.GetRoomUser().Chat(null, "Fuck you!", true, 1);
+                            base.GetRoomUser().Chat(null, "Filho da puta!", true, 1);
                             System.Threading.Thread.Sleep(2000);
                             RoleplayManager.KickBotFromRoom(base.GetRoomUser().BotData.Name, base.GetBotData().RoomId);
                         }
@@ -658,12 +658,12 @@ namespace Plus.HabboHotel.RoomBots
 
                             if (base.GetBotData().InteractingWith.GetClient().GetHabbo().Credits - Amnt <= 0)
                             {
-                                base.GetRoomUser().Chat(null, "Darn, you're broke as fuck, I'll let you go this time!", true, 1);
+                                base.GetRoomUser().Chat(null, "Droga, você está sem dinheiro, vou deixar você ir desta vez!", true, 1);
                                 Done = true;
                                 return;
                             }
 
-                            base.GetRoomUser().Chat(null, "*Robs $" + Amnt + " from " + base.GetBotData().InteractingWith.GetClient().GetHabbo().UserName + " and runs away*", true, 1);
+                            base.GetRoomUser().Chat(null, "*Rouba $" + Amnt + " de " + base.GetBotData().InteractingWith.GetClient().GetHabbo().UserName + " e foge*", true, 1);
                             RoleplayManager.GiveMoney(base.GetBotData().InteractingWith.GetClient(), -Amnt);
                             Done = true;
                         }
@@ -735,7 +735,7 @@ namespace Plus.HabboHotel.RoomBots
 
                         if (base.GetBotData().TimesTried >= 20)
                         {
-                            base.GetRoomUser().Chat(null, "Fuck you!", true, 1);
+                            base.GetRoomUser().Chat(null, "Filho da puta!", true, 1);
                             System.Threading.Thread.Sleep(2000);
                             RoleplayManager.KickBotFromRoom(base.GetRoomUser().BotData.Name, base.GetBotData().RoomId);
                         }
@@ -757,12 +757,12 @@ namespace Plus.HabboHotel.RoomBots
 
                             if (base.GetBotData().InteractingWith.GetClient().GetRoleplay().Bank - AmntBank <= 0)
                             {
-                                base.GetRoomUser().Chat(null, "Darn, you're broke as fuck, I'll let you go this time!", true, 1);
+                                base.GetRoomUser().Chat(null, "Droga, você está sem dinheiro, vou deixar você ir desta vez!", true, 1);
                                 Done = true;
                                 return;
                             }
 
-                            base.GetRoomUser().Chat(null, "*Robs $" + AmntBank + " from " + base.GetBotData().InteractingWith.GetClient().GetHabbo().UserName + " and runs away*", true, 1);
+                            base.GetRoomUser().Chat(null, "*Rouba $" + AmntBank + " de " + base.GetBotData().InteractingWith.GetClient().GetHabbo().UserName + " e foge*", true, 1);
                             base.GetBotData().InteractingWith.GetClient().GetRoleplay().SaveQuickStat("bank", "" + (base.GetBotData().InteractingWith.GetClient().GetRoleplay().Bank - AmntBank));
                             base.GetBotData().InteractingWith.GetClient().GetRoleplay().Bank -= AmntBank;
                             Done = true;
