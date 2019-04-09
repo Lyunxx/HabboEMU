@@ -246,14 +246,14 @@ namespace Plus.HabboHotel.RoomBots
                     // Kill this punk
                     if (Session.GetRoleplay().CurHealth - Damage <= 0)
                     {
-                        GetRoomUser().Chat(null, "*Swings at " + _Victim.GetUserName() + ", knocking them out*", true, 1);
+                        GetRoomUser().Chat(null, "*Da um soco em " + _Victim.GetUserName() + ", nocauteando-o*", true, 1);
                         Session.GetRoleplay().CurHealth = 120;
                         Session.GetRoleplay().Energy = 120;
                         Session.GetRoleplay().Hunger = 0;
                         Session.GetRoleplay().UpdateStats++;
 
                         // Tell this nigga he got fucked up by our bot
-                        Session.SendNotif("You got knocked out by BOT-" + GetBotData().Name);
+                        Session.SendNotif("Você foi nocauteado pelo BOT-" + GetBotData().Name);
                         _Victim = null;
                         // SEND THIS NIGGA BACK TO HIS SHIT HOLE
                         Session.GetMessageHandler().PrepareRoomForUser(Plus.GetGame().MafiaWars.GraveYardID, "");
@@ -264,7 +264,7 @@ namespace Plus.HabboHotel.RoomBots
                         return;
                     }
 
-                    GetRoomUser().Chat(null, "*Swings at " + _Victim.GetUserName() + ", causing " + Damage + " damage [-2 Energy]*", true, 1);
+                    GetRoomUser().Chat(null, "*Bate em " + _Victim.GetUserName() + ", causando " + Damage + " dano*", true, 1);
                     RoleplayManager.Shout(Session, "*[" + Session.GetRoleplay().CurHealth + "/" + Session.GetRoleplay().MaxHealth + "]*");
 
                     Session.GetRoleplay().CurHealth -= Damage;
@@ -278,7 +278,7 @@ namespace Plus.HabboHotel.RoomBots
                 if (RoleplayManager.Distance(MyPOS, VictimPOS) >= 1 && RoleplayManager.Distance(MyPOS, VictimPOS) <= 2)
                 {
                     // Miss
-                    GetRoomUser().Chat(null, "*Swings at " + _Victim.GetUserName() + " but misses*", true, 1);
+                    GetRoomUser().Chat(null, "*Tenta bater em " + _Victim.GetUserName() + " mas erra*", true, 1);
 
                     GetBotData().ApplyCooldown(2000);
                     _AttackTimer.Change(1000, 1000);
