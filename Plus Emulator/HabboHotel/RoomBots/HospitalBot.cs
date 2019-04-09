@@ -101,7 +101,7 @@ namespace Plus.HabboHotel.RoomBots
                 return;
             }
 
-            if (Message != "curar" && Message != "medical aid" && Message != "aid")
+            if (Message != "curar" && Message != "medkit" && Message != "kit")
             {
                 return;
             }
@@ -114,18 +114,18 @@ namespace Plus.HabboHotel.RoomBots
                 {
                     if (Session.GetRoleplay().BeingHealed)
                     {
-                        Session.SendWhisper("You are already being healed!");
+                        Session.SendWhisper("Você já está sendo curado!");
                         return;
                     }
                     else
-                        base.GetRoomUser().Chat(null, "*Applies some bandages to " + User.GetClient().GetHabbo().UserName + "'s wounds*", true, 1);
+                        base.GetRoomUser().Chat(null, "*Aplica algumas bandagens em " + User.GetClient().GetHabbo().UserName + "curando suas feridas*", true, 1);
                 }
                 else
                 {
                     int yolo = (RoleplayManager.PurgeTime == true) ? 2 : 1;
                     if (Session.GetRoleplay().DeadTimer <= yolo)
                     {
-                        base.GetRoomUser().Chat(null, "*Discharges " + Session.GetHabbo().UserName + " from the hospital*", true, 1);
+                        base.GetRoomUser().Chat(null, "*Descarrega " + Session.GetHabbo().UserName + " para o hospital*", true, 1);
                         Session.GetRoleplay().DeadTimer = 0;
                         Session.GetRoleplay().DeadSeconds = 0;
                         Session.GetRoleplay().SaveStatusComponents("dead");
@@ -136,7 +136,7 @@ namespace Plus.HabboHotel.RoomBots
                     }
                     else
                     {
-                        Session.SendWhisper("You must wait at least 1 minute before you can request to be released from the hospital!");
+                        Session.SendWhisper("Você deve esperar pelo menos 1 minuto antes de poder pedir para ser liberado do hospital!");
                         return;
                     }
                 }
@@ -147,7 +147,7 @@ namespace Plus.HabboHotel.RoomBots
                 return;
             }
             else
-                User.GetClient().SendWhisper("Your health is already full!");
+                User.GetClient().SendWhisper("Sua saúde já está cheia!");
             return;
                     
                     
