@@ -291,26 +291,26 @@ namespace Plus.HabboHotel
 
                 #region Roleplay
 
-                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> Wanted List Generated");
+                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> Lista de procurados gerada!");
                 Console.WriteLine(" -> READY!");
                 RoleplayManager.GenerateWantedList();
 
                 JobManager.init();
-                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> " + JobManager.JobData.Count + " Jobs Loaded");
+                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> " + JobManager.JobData.Count + " Trabalhos carregados");
                 Console.WriteLine(" -> READY!");
                 GetGroupManager().InitGroups();
 
                 GangManager.init();
-                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> " + GangManager.GangData.Count + " Gangs Loaded");
+                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> " + GangManager.GangData.Count + " Gangues carregadas");
                 Console.WriteLine(" -> READY!");
 
                 WeaponManager.init();
-                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> " + WeaponManager.WeaponsData.Count + " Weapons Loaded");
+                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> " + WeaponManager.WeaponsData.Count + " Armas carregadas");
                 Console.WriteLine(" -> READY!");
 
                 ColourManager.Initialize();
                 MafiaWars = new MafiaWarManager();
-                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> Mini Games initialized!");
+                Console.Write("[" + DateTime.Now.ToString("HH:mm:ss") + "] >> Mini Games iniciados!");
                 Console.WriteLine(" -> READY!");
 
                 RoleplayManager.init();
