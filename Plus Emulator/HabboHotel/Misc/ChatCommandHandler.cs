@@ -12932,7 +12932,7 @@ namespace Plus.HabboHotel.Misc
                     }
                 #endregion
                 #region :equip
-                case "equip":
+                case "equipar":
                     {
 
                         #region Params/Variables
@@ -13098,7 +13098,7 @@ namespace Plus.HabboHotel.Misc
                     }
                 #endregion
                 #region :unequip
-                case "unequip":
+                case "desequipar":
                     {
 
                         #region Params/Variables
@@ -13162,6 +13162,7 @@ namespace Plus.HabboHotel.Misc
                 #endregion
                 #region :buybullets
                 case "buybullets":
+                case "comprarbalas":
                     {
 
                         try
@@ -13187,7 +13188,7 @@ namespace Plus.HabboHotel.Misc
 
                             if (!Session.GetHabbo().CurrentRoom.RoomData.Description.Contains("AMMUNATION"))
                             {
-                                Session.SendWhisper("You must be in the Ammunation [RoomID: 19] to buy bullets!");
+                                Session.SendWhisper("Você precisa estar na loja de armas [RoomID: 19] para comprar balas!");
                                 return true;
                             }
                             if (Amnt < 50)
@@ -13203,7 +13204,7 @@ namespace Plus.HabboHotel.Misc
                             #endregion
 
                             #region Execute
-                            RoleplayManager.Shout(Session, "*Purchases " + Amnt + " bullets for $" + Pay + " [-$" + Pay + "]*");
+                            RoleplayManager.Shout(Session, "*Compra " + Amnt + " balas por $" + Pay + " [-$" + Pay + "]*");
                             Session.GetRoleplay().Bullets += Amnt;
                             Session.GetRoleplay().SaveQuickStat("bullets", "" + Session.GetRoleplay().Bullets);
                             RoleplayManager.GiveMoney(Session, -Pay);
