@@ -4,3 +4,33 @@ System.NullReferenceException: Refer?ncia de objeto n?o definida para uma inst?n
    em Plus.HabboHotel.Rooms.RoomUserManager.OnCycle(Int32& idleCount) na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\RoomUserManager.cs:linha 1469
    em Plus.HabboHotel.Rooms.Room.ProcessRoom() na C:\Users\caioi\Desktop\FluxEMU1.79\Plus Emulator\HabboHotel\Rooms\Room.cs:linha 741
 
+
+Error in thread Room cycle task for room 23: 
+System.InvalidOperationException: Cole??o foi modificada; talvez a opera??o de enumera??o n?o seja executada.
+   em System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   em System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   em Plus.HabboHotel.Rooms.RoomManager.UnloadRoom(Room room, String reason) na C:\Users\caioi\Desktop\HabboEMU\Plus Emulator\HabboHotel\Rooms\RoomManager.cs:linha 738
+   em Plus.HabboHotel.Rooms.Room.ProcessRoom() na C:\Users\caioi\Desktop\HabboEMU\Plus Emulator\HabboHotel\Rooms\Room.cs:linha 752
+
+
+Error in thread Room cycle task for room 23: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Reading from the stream has failed. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.EndOfStreamException: Tentativa de leitura ultrapassou o fim do fluxo.
+   em MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   em MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   em MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em Plus.Database.DatabaseManager.GetQueryReactor()
+   em Plus.HabboHotel.Rooms.RoomManager.UnloadRoom(Room room, String reason) na C:\Users\caioi\Desktop\HabboEMU\Plus Emulator\HabboHotel\Rooms\RoomManager.cs:linha 658
+   em Plus.HabboHotel.Rooms.Room.ProcessRoom() na C:\Users\caioi\Desktop\HabboEMU\Plus Emulator\HabboHotel\Rooms\Room.cs:linha 752
+

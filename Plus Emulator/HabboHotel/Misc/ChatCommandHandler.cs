@@ -18763,6 +18763,7 @@ namespace Plus.HabboHotel.Misc
                 #endregion
                 #region :giveweapon <user> <weapon>
                 case "giveweapon":
+                case "oferecerarma":
                     {
 
 
@@ -18779,7 +18780,7 @@ namespace Plus.HabboHotel.Misc
                         }
                         else
                         {
-                            Session.SendWhisper("Incorrect params");
+                            Session.SendWhisper("Parametro incorreto");
                             return true;
                         }
 
@@ -18791,8 +18792,8 @@ namespace Plus.HabboHotel.Misc
                             return true;
 
                         Targ.GetRoleplay().HungerGames_Inventory.Add(Weapon.ToLower(), 30);
-                        Session.SendWhisper("Successfully gave " + Targ.GetHabbo().UserName + " a " + Weapon.ToLower());
-                        Targ.SendWhisper("You received an " + Weapon.ToLower() + " from " + Session.GetHabbo().UserName);
+                        Session.SendWhisper("Sucesso você deu para " + Targ.GetHabbo().UserName + " uma " + Weapon.ToLower());
+                        Targ.SendWhisper("Você recebeu uma " + Weapon.ToLower() + " de " + Session.GetHabbo().UserName);
                         #endregion
 
                         return true;
@@ -18828,7 +18829,7 @@ namespace Plus.HabboHotel.Misc
                                 mClient.GetHabbo().GetRoomUser().ApplyEffect(0);
                             }
                         }
-                        Session.SendWhisper("Done");
+                        Session.SendWhisper("Feito");
 
 
                         return true;
